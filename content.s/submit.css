@@ -1,0 +1,52 @@
+body{
+  background-image: url(photos/form.avif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  background-clip: border-box;
+  max-width: 100%;
+  background-color: aliceblue;
+  height: auto;
+  max-width: 100%;
+  vertical-align: top;
+  text-align: center;
+  line-height: 25px;
+  
+}
+body:hover{
+  background-color: black;
+  transform: scale(33em);
+  transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  
+
+  background: radial-gradient(#111a39, 67.5%, #3476da) padding-box,
+  radial-gradient(#a0c2ed, 35%, #a0c2ed00 70%) 50% 0/80% 50% repeat-y;
+  color: #f2fdfe;
+}
+#success_message{ display: none;}
+#Submit button{
+  margin-right: 50px;
+}
+#Submit button:hover{
+  transform: scale(33em);
+  transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+  -webkit-transition: all 500ms ease;
+  -moz-transition: all 500ms ease;
+  -ms-transition: all 500ms ease;
+  -o-transition: all 500ms ease;
+  transition: all 500ms ease;
+  
+
+  background: radial-gradient(#111a39, 67.5%, #bcda34) padding-box,
+  radial-gradient(#a0c2ed, 35%, #a0c2ed00 70%) 50% 0/80% 50% repeat-y;
+  color: #f2fdfe;
+}
